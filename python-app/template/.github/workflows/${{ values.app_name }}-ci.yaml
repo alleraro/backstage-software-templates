@@ -108,7 +108,7 @@ jobs:
       - name: Ensure ArgoCD repo app
         shell: bash
         run: | 
-          repo="https://github.com/alipendix-org/${{ values.app_name }}.git"
+          repo="https://github.com/alleraro-org/${{ values.app_name }}.git"
           argocd repo list | grep -q $repo || argocd repo add $repo
 
           argocd app get ${{ values.app_name }} || argocd app create ${{ values.app_name }} \
