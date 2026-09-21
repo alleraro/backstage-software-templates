@@ -4,7 +4,7 @@ metadata:
   name: ${{values.app_name}}
   description: Python app that displays the time - ${{values.app_name}}
   annotations:
-    github.com/project-slug: alipendix-org/${{values.app_name}}
+    github.com/project-slug: alleraro-org/${{values.app_name}}
     backstage.io/techdocs-ref: dir:.
 
 spec:
